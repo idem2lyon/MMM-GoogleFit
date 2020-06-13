@@ -150,7 +150,7 @@ module.exports = NodeHelper.create({
       rotate = 1;
     }
 
-    var days = ["S", "M", "T", "W", "T", "F", "S"];
+    var days = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];
     if (rotate != 0) {
       rotate %= days.length;
       days = days.slice(rotate, days.length).concat(days.slice(0, rotate));
