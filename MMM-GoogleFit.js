@@ -8,7 +8,7 @@ Module.register("MMM-GoogleFit", {
   defaults: {
     updateInterval: 30, // minutes
     stepGoal: 10000,
-    startOnMonday: false,
+    startOnMonday: true,
     lastSevenDays: false,
     reverseOrder: false,
     chartWidth: 300, // px
